@@ -1,0 +1,20 @@
+export default {
+    updateStationCode({commit},code){
+        commit('setStationCode',code)
+    },
+    updateDate({commit},date){
+        commit('setDate',date)
+    },
+    updateDay({commit},day){
+        commit('setDay',day)
+    },
+    updateClock({commit},clock){
+        commit('setClock',clock)
+    },
+    updateSelectTime({commit},selectTime){
+        commit('setSelectTime',selectTime)
+    },
+    updateCheckedWhich({commit},checkedWhich){
+        commit('setCheckedWhich',checkedWhich)
+    },
+}
